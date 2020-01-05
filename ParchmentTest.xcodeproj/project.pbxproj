@@ -14,10 +14,11 @@
 		800A70D923BF22AF000410C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800A70D823BF22AF000410C6 /* Assets.xcassets */; };
 		800A70DC23BF22AF000410C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800A70DA23BF22AF000410C6 /* LaunchScreen.storyboard */; };
 		800A70E423BF2352000410C6 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A70E323BF2352000410C6 /* ViewControllerOne.swift */; };
-		800A70E623BF235E000410C6 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A70E523BF235E000410C6 /* ViewControllerTwo.swift */; };
-		800A70E823BF2368000410C6 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A70E723BF2368000410C6 /* ViewControllerThree.swift */; };
 		800A70EA23BF2640000410C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A70E923BF2640000410C6 /* Extensions.swift */; };
 		800A70EC23BF3495000410C6 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A70EB23BF3495000410C6 /* CityViewController.swift */; };
+		804BAE7623C17A9E00B282C2 /* IconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BAE7523C17A9E00B282C2 /* IconViewController.swift */; };
+		804BAE7823C17B0600B282C2 /* IconPagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BAE7723C17B0600B282C2 /* IconPagingCell.swift */; };
+		804BAE7A23C181D900B282C2 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BAE7923C181D900B282C2 /* UIColor+interpolation.swift */; };
 		A6345635917B03B8C6936F4F /* Pods_ParchmentTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D78B615B1EC0961B28355C1 /* Pods_ParchmentTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +33,11 @@
 		800A70DB23BF22AF000410C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800A70DD23BF22AF000410C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800A70E323BF2352000410C6 /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
-		800A70E523BF235E000410C6 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
-		800A70E723BF2368000410C6 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		800A70E923BF2640000410C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		800A70EB23BF3495000410C6 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		804BAE7523C17A9E00B282C2 /* IconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViewController.swift; sourceTree = "<group>"; };
+		804BAE7723C17B0600B282C2 /* IconPagingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPagingCell.swift; sourceTree = "<group>"; };
+		804BAE7923C181D900B282C2 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+interpolation.swift"; sourceTree = "<group>"; };
 		AE18211A57DF9770D67E1EEF /* Pods-ParchmentTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParchmentTest.debug.xcconfig"; path = "Target Support Files/Pods-ParchmentTest/Pods-ParchmentTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A547D231F6091F7CF34C62 /* Pods-ParchmentTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParchmentTest.release.xcconfig"; path = "Target Support Files/Pods-ParchmentTest/Pods-ParchmentTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,10 +86,11 @@
 				800A70CF23BF22AD000410C6 /* AppDelegate.swift */,
 				800A70D123BF22AD000410C6 /* SceneDelegate.swift */,
 				800A70D323BF22AD000410C6 /* ViewController.swift */,
+				804BAE7523C17A9E00B282C2 /* IconViewController.swift */,
+				804BAE7723C17B0600B282C2 /* IconPagingCell.swift */,
+				804BAE7923C181D900B282C2 /* UIColor+interpolation.swift */,
 				800A70E323BF2352000410C6 /* ViewControllerOne.swift */,
 				800A70EB23BF3495000410C6 /* CityViewController.swift */,
-				800A70E523BF235E000410C6 /* ViewControllerTwo.swift */,
-				800A70E723BF2368000410C6 /* ViewControllerThree.swift */,
 				800A70E923BF2640000410C6 /* Extensions.swift */,
 				800A70D523BF22AD000410C6 /* Main.storyboard */,
 				800A70D823BF22AF000410C6 /* Assets.xcassets */,
@@ -221,14 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800A70E623BF235E000410C6 /* ViewControllerTwo.swift in Sources */,
-				800A70E823BF2368000410C6 /* ViewControllerThree.swift in Sources */,
 				800A70D423BF22AD000410C6 /* ViewController.swift in Sources */,
 				800A70EC23BF3495000410C6 /* CityViewController.swift in Sources */,
 				800A70D023BF22AD000410C6 /* AppDelegate.swift in Sources */,
 				800A70D223BF22AD000410C6 /* SceneDelegate.swift in Sources */,
 				800A70E423BF2352000410C6 /* ViewControllerOne.swift in Sources */,
+				804BAE7A23C181D900B282C2 /* UIColor+interpolation.swift in Sources */,
 				800A70EA23BF2640000410C6 /* Extensions.swift in Sources */,
+				804BAE7823C17B0600B282C2 /* IconPagingCell.swift in Sources */,
+				804BAE7623C17A9E00B282C2 /* IconViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
